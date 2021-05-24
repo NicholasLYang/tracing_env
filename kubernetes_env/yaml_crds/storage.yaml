@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: storage-upstream
-        image: ghcr.io/dyn-tracing/storage:latest
+        image: https://hub.docker.com/repository/docker/khanh969hn/tracing-env-fs
         ports:
         - containerPort: 8080
 ---
