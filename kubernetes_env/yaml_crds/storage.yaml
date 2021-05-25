@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: storage-upstream
-        image: https://hub.docker.com/repository/docker/khanh969hn/tracing-env-fs
+        image: khanh969hn/tracing-env-fs:latest
         ports:
         - containerPort: 8080
 ---
